@@ -17,11 +17,17 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from .circle import circle
+
 from .ayuda import ayuda
 
 TraduceToEn = {
     'circle':   circle['circle'],
     'round':    circle['circle'],
-    'help':     ayuda,
-    'support':  ayuda,
+    'add round':    circle['circle'],
+    'add circle':    circle['circle'],
+    
+    "help":            circle['help'],
+    "info":            circle['help'],
+    "options":         circle['help']
 }
+

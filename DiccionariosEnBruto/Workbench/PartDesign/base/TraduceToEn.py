@@ -24,17 +24,23 @@ TraduceToEn = {
     "body": base["body"],
     "new body": base["body"],
     "create body": base["body"],
+
     # NewSketch
     "newsketch": base["newsketch"],
     "new sketch": base["newsketch"],
     "create sketch": base["newsketch"],
+
     # Clone
     "clone": base["clone"],
     "clone feature": base["clone"],
     "clone body": base["clone"],
+    "duplicate":  base["clone"],
+    
     # SubshapeBinder
     "subshapebinder": base["subshapebinder"],
     "subshape binder": base["subshapebinder"],
     
-    "help": ayuda,
+    "help":            base['help'],
+    "info":            base['help'],
+    "options":         base['help']
 }

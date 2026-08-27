@@ -16,12 +16,15 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from .box import box
+
 from .ayuda import ayuda
 
 TraduceToPt = {
     'caixa':    box['box'],
     'bloco':    box['box'],
     'cubo':     box['box'],
-    'ajuda':    ayuda,
-    'suporte':  ayuda,
+    
+    "ajuda":             box['help'],
+    "informação":       box['help'],
+    "opções":            box['help']
 }

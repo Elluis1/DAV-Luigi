@@ -17,11 +17,19 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from .cube import cube
+
 from .ayuda import ayuda
 
 TraduceToEn = {
     'cube':     cube['cube'],
     'box':      cube['cube'],
-    'help':     ayuda,
-    'support':  ayuda,
+    'block':    cube['cube'],
+    'add cube':     cube['cube'],
+    'add box':      cube['cube'],
+    'add block':    cube['cube'],
+    
+    "help":            cube['help'],
+    "info":            cube['help'],
+    "options":         cube['help']
 }
+

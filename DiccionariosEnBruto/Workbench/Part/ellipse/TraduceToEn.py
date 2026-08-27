@@ -17,11 +17,17 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from .ellipse import ellipse
+
 from .ayuda import ayuda
 
 TraduceToEn = {
     'ellipse':  ellipse['ellipse'],
     'oval':     ellipse['ellipse'],
-    'help':     ayuda,
-    'support':  ayuda,
+    'add oval':     ellipse['ellipse'],
+    'add ellipse':  ellipse['ellipse'],
+    
+    "help":            ellipse['help'],
+    "info":            ellipse['help'],
+    "options":         ellipse['help']
 }
+

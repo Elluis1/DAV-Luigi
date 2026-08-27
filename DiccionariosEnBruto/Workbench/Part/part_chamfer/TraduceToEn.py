@@ -19,6 +19,7 @@
 """English spoken-word mapping for Part chamfer commands."""
 
 from .part_chamfer import part_chamfer
+
 from .ayuda import ayuda
 
 TraduceToEn = {
@@ -28,8 +29,9 @@ TraduceToEn = {
     "bevel": part_chamfer["chaflan"],
     "create bevel": part_chamfer["chaflan"],
     "make bevel": part_chamfer["chaflan"],
-    "help": ayuda,
-    "manual": ayuda,
-    "support": ayuda,
-    "documentation": ayuda,
+
+    "help":            part_chamfer['help'],
+    "info":            part_chamfer['help'],
+    "options":         part_chamfer['help']
+
 }

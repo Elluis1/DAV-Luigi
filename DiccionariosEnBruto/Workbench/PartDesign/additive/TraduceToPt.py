@@ -75,6 +75,18 @@ TraduceToPt = {
     'cunha aditiva':     additive['additivewedge'],
     'wedge aditivo':     additive['additivewedge'],
     'chanfro aditivo':     additive['additivewedge'],
+   
+    # pad_sketch
+    "extrudar esboço": additive["pad_sketch"],
+    "estender perfil": additive["pad_sketch"],
+    "espessar desenho": additive["pad_sketch"],
 
-    'help':              additive['help'],
+    # loft_profiles
+    "mesclar formas": additive["loft_profiles"],
+    "varrer superfícies": additive["loft_profiles"],
+    "deformar seções": additive["loft_profiles"],
+
+    "ajuda":             additive["help"],
+    "informação":       additive["help"],
+    "opções":            additive["help"]
 }

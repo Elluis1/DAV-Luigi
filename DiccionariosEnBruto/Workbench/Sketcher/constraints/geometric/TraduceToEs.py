@@ -15,3 +15,63 @@
 # Deberías haber recibido una copia de la Licencia Pública General GNU
 # junto con este programa. Si no es así, consulte <http://www.gnu.org/licenses/>.
 # SPDX-License-Identifier: GPL-3.0-or-later
+
+"""Spanish spoken-word mapping for the geometric dictionary."""
+
+from .geometric import geometric
+
+TraduceToEs = {
+    'coincidente':          geometric['coincident'],
+    'hacer coincidente':    geometric['coincident'],
+    'unir puntos':          geometric['coincident'],
+
+    'coincidente unificado': geometric['coincidentunified'],
+    'coincidencia unificada':geometric['coincidentunified'],
+
+    'bloquear':             geometric['lock'],
+    'fijar posición':       geometric['lock'],
+
+    'punto en objeto':      geometric['pointonobject'],
+    'fijar a línea':        geometric['pointonobject'],
+
+    'horizontal':           geometric['horizontal'],
+    'hacer horizontal':     geometric['horizontal'],
+    
+    'vertical':             geometric['vertical'],
+    'hacer vertical':       geometric['vertical'],
+    
+    'horizontal vertical':  geometric['horver'],
+    'orientación automática':geometric['horver'],
+
+    'paralelo':             geometric['parallel'],
+    'hacer paralelo':       geometric['parallel'],
+    
+    'perpendicular':        geometric['perpendicular'],
+    'hacer perpendicular':  geometric['perpendicular'],
+
+    'tangente':             geometric['tangent'],
+    'hacer tangente':       geometric['tangent'],
+
+    'igual':                geometric['equal'],
+    'hacer igual':          geometric['equal'],
+    'longitud igual':       geometric['equal'],
+
+    'simétrico':            geometric['symmetric'],
+    'hacer simétrico':      geometric['symmetric'],
+    'simetría':             geometric['symmetric'],
+    'aplicar simetría':             geometric['symmetric'],
+
+    'bloque':               geometric['block'],
+    'bloquear geometría':   geometric['block'],
+
+    'alternar conductora':  geometric['toggledriving'],
+    'modo referencia':      geometric['toggledriving'],
+
+    'alternar activa':      geometric['toggleactive'],
+    'activar restriccion':  geometric['toggleactive'],
+    'desactivar restriccion':geometric['toggleactive'],
+
+    'ayuda':                geometric['help'],
+    'información':             geometric['help'],
+    'opciones':             geometric['help']
+}

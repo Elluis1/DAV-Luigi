@@ -16,12 +16,17 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from .ellipse import ellipse
+
 from .ayuda import ayuda
 
 TraduceToEs = {
     'elipse':   ellipse['ellipse'],
     'ovalo':    ellipse['ellipse'],
     'óvalo':    ellipse['ellipse'],
-    'ayuda':    ayuda,
-    'soporte':  ayuda,
+    'agregar elipse':   ellipse['ellipse'],
+    'agregar óvalo':    ellipse['ellipse'],
+    
+    "ayuda":                ellipse['help'],
+    "información":          ellipse['help'],
+    "opciones":             ellipse['help']
 }

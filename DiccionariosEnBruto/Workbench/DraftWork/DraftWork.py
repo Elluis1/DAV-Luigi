@@ -24,10 +24,11 @@ from .modify.modify import modify
 from .dimension.dimension import dimension
 from .ellipse.ellipse import ellipse
 from .facebinder.facebinder import facebinder
-from .Drafting.Drafting import drafting
+from .Drafting.drafting import drafting
 from .creation.creation import creation
 from .modification.modification import modification
 from .ayuda import ayuda
+from _lenient import LenientDict
 
 draft = {}
 draft.update(annotation)
@@ -43,3 +44,6 @@ draft.update(drafting)
 draft.update(creation)
 draft.update(modification)
 draft.update({'help': ayuda})
+
+# Tolerante a claves aún no implementadas (no rompe el contexto entero).
+draft = LenientDict(draft)

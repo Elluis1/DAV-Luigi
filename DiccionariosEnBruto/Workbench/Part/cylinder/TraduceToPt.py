@@ -16,12 +16,16 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from .cylinder import cylinder
+
 from .ayuda import ayuda
 
 TraduceToPt = {
     'cilindro':           cylinder['cylinder'],
     'cilindro primitivo': cylinder['primitive cylinder'],
+    'cilindro primitiva': cylinder['primitive cylinder'],
     'tubo':               cylinder['cylinder'],
-    'ajuda':              ayuda,
-    'suporte':            ayuda,
+
+    "ajuda":             cylinder['help'],
+    "informação":       cylinder['help'],
+    "opções":            cylinder['help']
 }

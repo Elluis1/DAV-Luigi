@@ -17,11 +17,18 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from .line import line
+
 from .ayuda import ayuda
 
 TraduceToEn = {
     'line':     line['line'],
     'straight': line['line'],
-    'help':     ayuda,
-    'support':  ayuda,
+    'add line':     line['line'],
+    'add straight': line['line'],
+    
+    "help":            line['help'],
+    "info":            line['help'],
+    "options":         line['help']
+
 }
+

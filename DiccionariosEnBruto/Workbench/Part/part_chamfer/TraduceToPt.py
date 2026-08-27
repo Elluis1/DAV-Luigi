@@ -19,6 +19,7 @@
 """Portuguese spoken-word mapping for Part chamfer commands."""
 
 from .part_chamfer import part_chamfer
+
 from .ayuda import ayuda
 
 TraduceToPt = {
@@ -31,10 +32,8 @@ TraduceToPt = {
     "criar bisel": part_chamfer["chaflan"],
     "fazer bisel": part_chamfer["chaflan"],
     "chamfer": part_chamfer["chaflan"],
-    "ajuda": ayuda,
-    "manual": ayuda,
-    "suporte": ayuda,
-    "documentacao": ayuda,
-    "documentação": ayuda,
-    "help": ayuda,
+
+    "ajuda":             part_chamfer['help'],
+    "informação":        part_chamfer['help'],
+    "opções":            part_chamfer['help']
 }

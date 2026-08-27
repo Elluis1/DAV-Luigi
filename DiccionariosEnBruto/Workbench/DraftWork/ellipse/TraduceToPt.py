@@ -23,7 +23,7 @@ TraduceToPt = {
     "oval": ellipse["center"],
     "elipse central": ellipse["center"],
 
-    "help": ellipse["help"],
     "ajuda": ellipse["help"],
+    "informação": ellipse["help"],
     "opcoes": ellipse["help"],
 }

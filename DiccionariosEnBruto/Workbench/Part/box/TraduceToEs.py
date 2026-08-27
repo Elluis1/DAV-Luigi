@@ -16,12 +16,18 @@
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from .box import box
+
 from .ayuda import ayuda
 
 TraduceToEs = {
     'caja':     box['box'],
     'bloque':   box['box'],
     'cubo':     box['box'],
-    'ayuda':    ayuda,
-    'soporte':  ayuda,
+    'agregar cubo':     box['box'],
+    'agregar caja':     box['box'],
+    'agregar bloque':     box['box'],
+
+    "ayuda":                box['help'],
+    "información":          box['help'],
+    "opciones":             box['help']
 }
